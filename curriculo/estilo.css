@@ -29,8 +29,3 @@ th {
 tr:nth-child(even) {
     background-color: gray;
 }
-
-#habilidades {
-    list-style-image: url("images/architecture.png");
-  }
-  
