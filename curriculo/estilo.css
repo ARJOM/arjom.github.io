@@ -29,3 +29,7 @@ th {
 tr:nth-child(even) {
     background-color: gray;
 }
+
+tr {
+    font-size: larger;
+}
