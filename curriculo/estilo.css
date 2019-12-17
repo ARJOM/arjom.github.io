@@ -5,27 +5,48 @@ h2 {
     box-shadow: 5px 10px gray;
 }
 
-p, li{
+p,
+li {
     font-family: 'Montserrat', sans-serif;
 }
 
-body{
+body {
     color: white;
     background: url('images/dark-honeycomb.png');
+    /* background: #A770EF;  fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-a:link, a:visited {
-	color: gray;
-    }
+a:link,
+a:visited {
+    color: gray;
+}
 
-a::after{
+a::after {
     content: url('images/external.png')
 }
 
 th {
     background-color: black;
-  }
+}
 
 tr:nth-child(even) {
     background-color: gray;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+tr {
+    font-size: larger;
+    text-align: center;
 }
